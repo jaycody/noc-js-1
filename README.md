@@ -4,13 +4,19 @@ shiffman's Nature of Code - Spring 2017 - p5.js
 ## Resources
 * [shiffman/NOC-S17-1-Physics-Animation wiki][1]
 * [NOC examples - p5.js][2]
-* [NOC example - Processing][3]
+* [NOC examples - Processing][3]
 * [NOC text online][4]
 * [Further Reading][5]
 * [Coding Math - video series][6]
 * [NOC video tutorials - youtube][7]
 
-
+## Topics
+* 01-noise
+* 02-forces
+* 03a-oscillation
+* 03b-particles
+* 04-autonomy
+* 05-physics_libs
 
 
 
