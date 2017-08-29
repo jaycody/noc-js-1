@@ -1,5 +1,5 @@
-# noc-s17
-shiffman's Nature of Code - Spring 2017 - p5.js
+# noc-js-1
+exercises in NOC pt1 - physics and animation
 
 ## Resources
 * [shiffman/NOC-S17-1-Physics-Animation wiki][1]
