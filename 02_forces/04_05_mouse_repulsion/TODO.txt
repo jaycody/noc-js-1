@@ -1,0 +1,73 @@
+/*  noc_p5_gungfu-todo
+
+___________________________________________
+this.TODO:
+[ ] attraction to the mouse
+[ ] mutual repulsion between objects
+[ ] pickup and drag objects
+[ ] use emblem with alpha png as the attractor image
+
+[ ] show attractor/vehicle velocity vector originating from each
+
+
+[ ] add external forces
+[ ] add internal perturbations (random and perlin) 
+[ ] add some sliders
+[ ] create a directory for shiffmans code challenges
+
+___________________________________________
+next.TODO:
+[ ] vehicle's perlin steering force should have initial seed unique to vehicle, vs.... 
+[ ] but external perlin force should be a uniform perlin force across all vehicles 
+
+[ ] create an External class which exerts external global forces across all vehicles
+[ ] External forces include perlin and random forces, wind, global gravity (not located in an attractor)
+
+[ ] create a Fluid class which exerts DRAG FORCE
+
+[ ] treat the vehicle as if it's the closest point coming from a kinect
+[ ] show history of closest point locations
+[ ] use closest point location history to define a shape
+[ ] texture the shape with an image
+[ ] give histories an independent movement
+
+___________________________________________
+NOTE:
+[ ] Force of drag =
+      -.5 * density * magnitude of velocity squared * surface area * coefficient of drag
+
+
+
+___________________________________________
+ongoing.TODO:
+[ ] add RESET for mouseClick
+[ ] overload the constructor such that objects can be created with or without arguments
+[ ] add room below the canvase for sliders. reduce the canvas height to .8 * INNER_HEIGHT
+[ ] add sliders to control External Forces, Steering Forces, Vehicle attributes, Surface and Fluid attributes, Attractors
+
+
+
+___________________________________________
+done.TODO:
+[x] create the vehicle class and display the vehicle
+[x] create a todo.txt page
+[x] create a Surface class which exerts FRICTION FORCE
+[x] when vehicle isOn surface, draw a secondary vehicle depicting the surface location
+[x] add history array to vehicle properties
+        this.history = [];
+[x] in vehicle's update, push vehicle location into history array
+        this.history.push(vehicle.location);
+[x] in vehicle's display, iterate through the history array,
+    [x] then store the previousLocations
+    [x] and draw at that point
+[x] draw line  between previous locations
+[x] draw shape between previousl locations
+[x] discovered the multiline string!!!  awesome sauce!!
+[x] define bounce boundaries rather than passthrough.  create boolean as switch
+[x] create and display vehicle object
+[x] create an Attractor field which exerts Gravity from an attractor location
+[x] create multiple attractors with nested loops
+[x] use the color datatype
+[x] mutual attraction with multiple attractors/vehicles 
+
+*/

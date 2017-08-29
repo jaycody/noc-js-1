@@ -1,0 +1,48 @@
+/*  noc_p5_gungfu-todo
+
+___________________________________________
+this.TODO:
+[ ] draw line  between previous locations
+[ ] draw shape between previousl locations
+
+___________________________________________
+next.TODO:
+[ ] vehicle's perlin steering force should have initial seed unique to vehicle, vs.... 
+[ ] but external perlin force should be a uniform perlin force across all vehicles 
+
+[ ] create an External class which exerts external global forces across all vehicles
+[ ] External forces include perlin and random forces, wind, global gravity (not located in an attractor)
+
+[ ] create a Fluid class which exerts DRAG FORCE
+[ ] create an Attractor field which exerts Gravity from an attractor location
+
+___________________________________________
+ongoing.TODO:
+[ ] add symlink to p5.js library from each new project
+[ ] add RESET for mouseClick
+[ ] overload the constructor such that objects can be created with or without arguments
+[ ] add room below the canvase for sliders. reduce the canvas height to .8 * INNER_HEIGHT
+[ ] add sliders to control External Forces, Steering Forces, Vehicle attributes, Surface and Fluid attributes, Attractors
+
+
+
+
+___________________________________________
+done.TODO:
+[x] create the vehicle class and display the vehicle
+[x] create a todo.txt page
+[x] create a Surface class which exerts FRICTION FORCE
+[x] when vehicle isOn surface, draw a secondary vehicle depicting the surface location
+[x] add history array to vehicle properties
+        this.history = [];
+[x] in vehicle's update, push vehicle location into history array
+        this.history.push(vehicle.location);
+[x] in vehicle's display, iterate through the history array,
+    [x] then store the previousLocations
+    [x] and draw at that point
+
+
+
+
+
+*/
