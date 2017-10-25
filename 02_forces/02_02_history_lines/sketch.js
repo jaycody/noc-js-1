@@ -31,8 +31,6 @@ function setup(){
 function draw(){
   if (backgroundIsOn){
     displayPageTitle();
-  } else {
-    background(BGND_COLOR);  
   }
   
   //establish drag and friction areas
