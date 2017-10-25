@@ -5,8 +5,8 @@ var PAGE_TITLE = "noc_p5_gungfu-02_forces-02_02_history_lines";
 var INNER_WIDTH    = window.innerWidth;
 var INNER_HEIGHT   = window.innerHeight;
 var CANVAS;
-var BGND_COLOR     = 127; // 127
-var backgroundIsOn = true;
+var BGND_COLOR     = 0; // 127
+var backgroundIsOn = false;
 
 
 var TOTAL_VEHICLES = 5;
