@@ -31,8 +31,9 @@ function setup(){
 function draw(){
   if (backgroundIsOn){
     displayPageTitle();
+  } else {
+    background(BGND_COLOR);      //clear CANVAS before draw
   }
-  
   //establish drag and friction areas
   //surface.display();
   //external forces acting upon the vehicle
