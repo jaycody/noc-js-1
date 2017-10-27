@@ -62,7 +62,7 @@ function draw(){
 }
 
 function mousePressed(){
-  
+  window.open("http://jaycodylab.tumblr.com/", "_self");
 }
 
 
